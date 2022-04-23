@@ -33,7 +33,7 @@ class IntegralImage(object):
         m = self.int_img[-1][-1] / N
         self.variance = (self.int_img_sq[-1][-1] / N) - math.pow(m, 2)
 
-    def sum_rectangle(self, top_left, bottom_right):
+    def get_rect_sum(self, top_left, bottom_right):
         top_left = (top_left[1], top_left[0])
         bottom_right = (bottom_right[1], bottom_right[0])
         if top_left == bottom_right:
