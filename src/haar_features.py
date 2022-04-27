@@ -61,3 +61,6 @@ class HaarFeature(object):
     def get_vote(self, int_img: Integral):
         score = self.get_score(int_img)
         return self.weight * (1 if score < self.parity * self.threshold else 0)
+
+    def __str__(self):
+        return f"height: {self.height}\nwidth: {self.width}\ntop left: {self.top_left}\n\n"
