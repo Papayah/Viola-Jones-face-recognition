@@ -178,6 +178,8 @@ def learn(pos_int_img, neg_int_img, num_classifiers=-1, min_feat_width=1, max_fe
     #
     # return classifiers
 
+    #TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEST
+
 
 if __name__ == '__main__':
     # haar_container = create_features(50, 50, 1, 50 // 3, 1, 50 // 3)
