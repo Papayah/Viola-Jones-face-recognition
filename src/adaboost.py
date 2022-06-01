@@ -62,7 +62,7 @@ def create_features(img_width, img_height, min_feat_width, max_feat_wid, min_fea
                         haar_feats.append(haar1)
                         haar_feats.append(haar2)
                         counter += 1
-                        if counter % 300 == 0:
+                        if counter % 10000 == 0:
                             print(counter)
     return HaarContainer(haar_feats)
 
